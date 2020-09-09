@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>TIF 2019/2020 Programma Svolto</TITLE>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<META content="Jupyter notebooks" name=description>
+<META content="MSHTML 5.00.2919.6307" name=GENERATOR></HEAD>
+<BODY BGCOLOR="#eeeeee" 
+    BACKGROUND="http://www.ph.unito.it/~maina/images/bkg_sandston.gif"
+TEXT="#003366" LINK="#333399" ALINK="#996699" VLINK="#333399">
+<CENTER><FONT SIZE="+4">
+TIF 2019/2020: Programma effettivamente svolto
+</FONT><BR>
+</CENTER>
+
+<h4>Nozioni fondamentali</h4>
+<ul>
+    <li>I notebook Jupyter</li>
+    <li>Operazioni e funzioni matematiche elementari</li>
+    <li>Uso di variabili</li>
+    <li>Definizione e chiamata di funzioni</li>
+    <li>Input e return values</li>
+    <li>Valori di default e parametri opzionali</li>
+    <li>Tipi di dati e contenitori di dati: numeri, liste, stringhe, ntuple, dizionari</li>
+    <li>Indici e slicing</li>
+    <li>Copia di oggetti in Python</li>
+    <li>Uguaglianza e identita'</li>
+    <li>Input e output</li>
+    <li>Formattazione</li>
+    <li>Lettura e scrittura di file</li>
+    <li>Valori logici</li>
+    <li>if-then-else</li>
+    <li>for loops</li>
+    <li>while loops</li>
+</ul>
+<h4>Numpy: calcolo numerico in Python</h4>
+<ul>
+    <li>Gli array</li>
+    <li>Algebra Lineare</li>
+    <li>Fit polinomiale a una curva</li>
+    <li>Numpy per la Statistica: media, varianza, istogrammi delle frequenze</li>
+    <li>Numeri casuali</li>
+</ul>
+<h4>Matplotlib: grafici in Python</h4>
+<ul>
+    <li>Scatter plot</li>
+    <li>Plot multipli e curve multiple</li>
+    <li>Plot logaritmici</li>
+    <li>Istogrammi</li>
+    <li>Legende, Annotazioni</li>
+</ul>

@@ -1,0 +1,114 @@
+I notebook Jupyter
+
+Operazioni e funzioni matematiche elementari
+
+Uso di variabili
+
+
+
+Definizione e chiamata di funzioni
+
+Input e return values
+
+Valori di default e parametri opzionali
+
+Tipi di dati e contenitori di dati: numeri, liste, stringhe
+ntuple, dizionari
+
+Indici e slicing
+
+Copia di oggetti in Python
+
+Uguaglianza e identita'
+
+
+
+Input e output
+
+Formattazione
+
+Lettura e scrittura di file
+
+
+
+Valori logici
+
+if-then-else
+
+for loops
+
+while loops
+
+
+
+
+Numpy: calcolo numerico in Python
+
+Gli array
+
+Algebra Lineare
+
+Fit polinomiale a una curva
+
+
+
+Matplotliv: grafici in Python
+
+Scatter plot
+
+Plot multipli e curve multiple
+
+Plot logaritmici
+
+Istogrammi
+
+Legende, Annotazioni
+
+
+
+Numpy per la Statistica
+
+Media, varianza
+
+Istogrammi delle frequenze
+
+Fit Lineare
+
+Fit quadratico
+
+
+
+
+
+Scipy: metodi numerici in Python
+
+Integrazione numerica
+
+Equazioni differenziali ordinarie
+
+Ricerca delle radici
+
+Interpolazione
+
+Fit di una curva
+
+Numeri casuali
+
+
+
+
+Simpy: calcolo simbolico in Python
+
+Simboli
+
+Derivazione/Integrazione
+
+Equazioni differenziali ordinarie
+
+Sviluppi in serie
+
+Equazioni lineari e matrici
+
+Equazioni non lineari
+
+
