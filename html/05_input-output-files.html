@@ -13194,58 +13194,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Notate che la conversione di una specificazione di formato e una ntupla di variabili in una stringa non necessita del comando <code>print</code>:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">pi</span>
-<span class="s2">&quot;pi = </span><span class="si">%f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">pi</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[1]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&#39;pi = 3.141593&#39;</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Questo significa che possiamo convertire oggetti in stringhe ogni qual volta sia necessario, e che possiamo decidere di stampare le stringhe in un momento successivo – non è necessario che la formattazione sia strettamente accoppiato con il codice che effettua la stampa. In questo caso la stringa formattata deve essere assegnata ad una variabile.</p>
-<p>Una lista dei formati comunemente usati usando l'unità astronomica (distanza media Sole-Terra in metri) come esempio:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Come-controllare-la-rappresentaione-delle-variabili-numeriche-sotto-forma-di-stringhe">Come controllare la rappresentaione delle variabili numeriche sotto forma di stringhe<a class="anchor-link" href="#Come-controllare-la-rappresentaione-delle-variabili-numeriche-sotto-forma-di-stringhe">&#182;</a></h3><p>Un sistema built-in di formattazione permette una grande flessibilità.</p>
+<h3 id="Come-controllare-la-rappresentazione-delle-variabili-numeriche-sotto-forma-di-stringhe">Come controllare la rappresentazione delle variabili numeriche sotto forma di stringhe<a class="anchor-link" href="#Come-controllare-la-rappresentazione-delle-variabili-numeriche-sotto-forma-di-stringhe">&#182;</a></h3><p>Un sistema built-in di formattazione permette una grande flessibilità.</p>
 <p>Le idee fondamentali attraverso esempi:</p>
 
 </div>
@@ -13364,7 +13313,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">my_a</span> <span class="o">=</span> <span class="n">pi</span>
@@ -13375,28 +13324,10 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>a =  3.1416
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;2*Pi is approximately </span><span class="si">{</span><span class="mi">2</span><span class="o">*</span><span class="n">pi</span><span class="si">:</span><span class="s2">4.2f</span><span class="si">}</span><span class="s2">.&quot;</span><span class="p">)</span>
@@ -13406,29 +13337,11 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>2*Pi is approximately 6.28.
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Comandi-di-formattazione">Comandi di formattazione<a class="anchor-link" href="#Comandi-di-formattazione">&#182;</a></h3><p>Prendiamo come esempio l'unità di distanza astronomica: AU = 149597870700 m.</p>
+<h3 id="Comandi-di-formattazione">Comandi di formattazione<a class="anchor-link" href="#Comandi-di-formattazione">&#182;</a></h3><p>Una lista dei formati comunemente usati usando l'unità astronomica (distanza media Sole-Terra in metri): AU = 149597870700 m.</p>
 <table>
 <thead><tr>
 <th style="text-align:left">specifier</th>
@@ -13485,7 +13398,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">AU</span> <span class="o">=</span> <span class="mi">149597870700</span>  <span class="c1"># unità astronomica [m]</span>
@@ -13497,33 +13410,13 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[2]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&#39;149597870700.000000&#39;</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">AU_f1</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">AU</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2">&quot;</span>        <span class="c1"># la prima linee della tavola</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">AU_f1</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">AU</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2">&quot;</span>        <span class="c1"># la prima linee della tavola con una sola cifra dopo il punto</span>
 <span class="n">AU_f1</span>
 </pre></div>
 
@@ -13531,33 +13424,13 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[4]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&#39;149597870700.0&#39;</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">AU_e</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">AU</span><span class="si">:</span><span class="s2">e</span><span class="si">}</span><span class="s2">&quot;</span>       <span class="c1"># la seconda linee della tavola</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">AU_e</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">AU</span><span class="si">:</span><span class="s2">e</span><span class="si">}</span><span class="s2">&quot;</span>       <span class="c1"># la seconda linee della tavola. Il formato esponenziale ha una cifra prima del punto.</span>
 <span class="n">AU_e</span>
 </pre></div>
 
@@ -13565,57 +13438,17 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[3]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&#39;1.495979e+11&#39;</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">AU_e4</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">AU</span><span class="si">:</span><span class="s2">.4e</span><span class="si">}</span><span class="s2">&quot;</span>       <span class="c1"># la seconda linee della tavola</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">AU_e4</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">AU</span><span class="si">:</span><span class="s2">.4e</span><span class="si">}</span><span class="s2">&quot;</span>       <span class="c1"># la seconda linee della tavola con quattro cifre dopo il punto</span>
 <span class="n">AU_e4</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[5]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&#39;1.4960e+11&#39;</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14007,7 +13840,7 @@ This is a third and last line.</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -14072,7 +13905,7 @@ This is a third and last line.</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">gender</span><span class="p">,</span> <span class="n">weight</span><span class="p">,</span> <span class="n">age</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span><span class="s2">&quot;../Data/mixed_data.txt&quot;</span><span class="p">,</span> <span class="n">skiprows</span><span class="o">=</span><span class="mi">2</span> <span class="p">,</span> <span class="n">unpack</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">str</span><span class="p">)</span>
@@ -14082,26 +13915,6 @@ This is a third and last line.</code></pre>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;F&#39; &#39;M&#39;]
-[&#39;50&#39; &#39;78&#39;]
-[&#39;37&#39; &#39;41&#39;]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -14116,7 +13929,7 @@ This is a third and last line.</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -14127,202 +13940,10 @@ This is a third and last line.</code></pre>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Help on function genfromtxt in module numpy:
-
-genfromtxt(fname, dtype=&lt;class &#39;float&#39;&gt;, comments=&#39;#&#39;, delimiter=None, skip_header=0, skip_footer=0, converters=None, missing_values=None, filling_values=None, usecols=None, names=None, excludelist=None, deletechars=&#34; !#$%&amp;&#39;()*+,-./:;&lt;=&gt;?@[\\]^{|}~&#34;, replace_space=&#39;_&#39;, autostrip=False, case_sensitive=True, defaultfmt=&#39;f%i&#39;, unpack=None, usemask=False, loose=True, invalid_raise=True, max_rows=None, encoding=&#39;bytes&#39;)
-    Load data from a text file, with missing values handled as specified.
-    
-    Each line past the first `skip_header` lines is split at the `delimiter`
-    character, and characters following the `comments` character are discarded.
-    
-    Parameters
-    ----------
-    fname : file, str, pathlib.Path, list of str, generator
-        File, filename, list, or generator to read.  If the filename
-        extension is `.gz` or `.bz2`, the file is first decompressed. Note
-        that generators must return byte strings. The strings
-        in a list or produced by a generator are treated as lines.
-    dtype : dtype, optional
-        Data type of the resulting array.
-        If None, the dtypes will be determined by the contents of each
-        column, individually.
-    comments : str, optional
-        The character used to indicate the start of a comment.
-        All the characters occurring on a line after a comment are discarded
-    delimiter : str, int, or sequence, optional
-        The string used to separate values.  By default, any consecutive
-        whitespaces act as delimiter.  An integer or sequence of integers
-        can also be provided as width(s) of each field.
-    skiprows : int, optional
-        `skiprows` was removed in numpy 1.10. Please use `skip_header` instead.
-    skip_header : int, optional
-        The number of lines to skip at the beginning of the file.
-    skip_footer : int, optional
-        The number of lines to skip at the end of the file.
-    converters : variable, optional
-        The set of functions that convert the data of a column to a value.
-        The converters can also be used to provide a default value
-        for missing data: ``converters = {3: lambda s: float(s or 0)}``.
-    missing : variable, optional
-        `missing` was removed in numpy 1.10. Please use `missing_values`
-        instead.
-    missing_values : variable, optional
-        The set of strings corresponding to missing data.
-    filling_values : variable, optional
-        The set of values to be used as default when the data are missing.
-    usecols : sequence, optional
-        Which columns to read, with 0 being the first.  For example,
-        ``usecols = (1, 4, 5)`` will extract the 2nd, 5th and 6th columns.
-    names : {None, True, str, sequence}, optional
-        If `names` is True, the field names are read from the first line after
-        the first `skip_header` lines.  This line can optionally be proceeded
-        by a comment delimiter. If `names` is a sequence or a single-string of
-        comma-separated names, the names will be used to define the field names
-        in a structured dtype. If `names` is None, the names of the dtype
-        fields will be used, if any.
-    excludelist : sequence, optional
-        A list of names to exclude. This list is appended to the default list
-        [&#39;return&#39;,&#39;file&#39;,&#39;print&#39;]. Excluded names are appended an underscore:
-        for example, `file` would become `file_`.
-    deletechars : str, optional
-        A string combining invalid characters that must be deleted from the
-        names.
-    defaultfmt : str, optional
-        A format used to define default field names, such as &#34;f%i&#34; or &#34;f_%02i&#34;.
-    autostrip : bool, optional
-        Whether to automatically strip white spaces from the variables.
-    replace_space : char, optional
-        Character(s) used in replacement of white spaces in the variables
-        names. By default, use a &#39;_&#39;.
-    case_sensitive : {True, False, &#39;upper&#39;, &#39;lower&#39;}, optional
-        If True, field names are case sensitive.
-        If False or &#39;upper&#39;, field names are converted to upper case.
-        If &#39;lower&#39;, field names are converted to lower case.
-    unpack : bool, optional
-        If True, the returned array is transposed, so that arguments may be
-        unpacked using ``x, y, z = loadtxt(...)``
-    usemask : bool, optional
-        If True, return a masked array.
-        If False, return a regular array.
-    loose : bool, optional
-        If True, do not raise errors for invalid values.
-    invalid_raise : bool, optional
-        If True, an exception is raised if an inconsistency is detected in the
-        number of columns.
-        If False, a warning is emitted and the offending lines are skipped.
-    max_rows : int,  optional
-        The maximum number of rows to read. Must not be used with skip_footer
-        at the same time.  If given, the value must be at least 1. Default is
-        to read the entire file.
-    
-        .. versionadded:: 1.10.0
-    encoding : str, optional
-        Encoding used to decode the inputfile. Does not apply when `fname` is
-        a file object.  The special value &#39;bytes&#39; enables backward compatibility
-        workarounds that ensure that you receive byte arrays when possible
-        and passes latin1 encoded strings to converters. Override this value to
-        receive unicode arrays and pass strings as input to converters.  If set
-        to None the system default is used. The default value is &#39;bytes&#39;.
-    
-        .. versionadded:: 1.14.0
-    
-    Returns
-    -------
-    out : ndarray
-        Data read from the text file. If `usemask` is True, this is a
-        masked array.
-    
-    See Also
-    --------
-    numpy.loadtxt : equivalent function when no data is missing.
-    
-    Notes
-    -----
-    * When spaces are used as delimiters, or when no delimiter has been given
-      as input, there should not be any missing data between two fields.
-    * When the variables are named (either by a flexible dtype or with `names`,
-      there must not be any header in the file (else a ValueError
-      exception is raised).
-    * Individual values are not stripped of spaces by default.
-      When using a custom converter, make sure the function does remove spaces.
-    
-    References
-    ----------
-    .. [1] NumPy User Guide, section `I/O with NumPy
-           &lt;https://docs.scipy.org/doc/numpy/user/basics.io.genfromtxt.html&gt;`_.
-    
-    Examples
-    ---------
-    &gt;&gt;&gt; from io import StringIO
-    &gt;&gt;&gt; import numpy as np
-    
-    Comma delimited file with mixed dtype
-    
-    &gt;&gt;&gt; s = StringIO(u&#34;1,1.3,abcde&#34;)
-    &gt;&gt;&gt; data = np.genfromtxt(s, dtype=[(&#39;myint&#39;,&#39;i8&#39;),(&#39;myfloat&#39;,&#39;f8&#39;),
-    ... (&#39;mystring&#39;,&#39;S5&#39;)], delimiter=&#34;,&#34;)
-    &gt;&gt;&gt; data
-    array((1, 1.3, b&#39;abcde&#39;),
-          dtype=[(&#39;myint&#39;, &#39;&lt;i8&#39;), (&#39;myfloat&#39;, &#39;&lt;f8&#39;), (&#39;mystring&#39;, &#39;S5&#39;)])
-    
-    Using dtype = None
-    
-    &gt;&gt;&gt; _ = s.seek(0) # needed for StringIO example only
-    &gt;&gt;&gt; data = np.genfromtxt(s, dtype=None,
-    ... names = [&#39;myint&#39;,&#39;myfloat&#39;,&#39;mystring&#39;], delimiter=&#34;,&#34;)
-    &gt;&gt;&gt; data
-    array((1, 1.3, b&#39;abcde&#39;),
-          dtype=[(&#39;myint&#39;, &#39;&lt;i8&#39;), (&#39;myfloat&#39;, &#39;&lt;f8&#39;), (&#39;mystring&#39;, &#39;S5&#39;)])
-    
-    Specifying dtype and names
-    
-    &gt;&gt;&gt; _ = s.seek(0)
-    &gt;&gt;&gt; data = np.genfromtxt(s, dtype=&#34;i8,f8,S5&#34;,
-    ... names=[&#39;myint&#39;,&#39;myfloat&#39;,&#39;mystring&#39;], delimiter=&#34;,&#34;)
-    &gt;&gt;&gt; data
-    array((1, 1.3, b&#39;abcde&#39;),
-          dtype=[(&#39;myint&#39;, &#39;&lt;i8&#39;), (&#39;myfloat&#39;, &#39;&lt;f8&#39;), (&#39;mystring&#39;, &#39;S5&#39;)])
-    
-    An example with fixed-width columns
-    
-    &gt;&gt;&gt; s = StringIO(u&#34;11.3abcde&#34;)
-    &gt;&gt;&gt; data = np.genfromtxt(s, dtype=None, names=[&#39;intvar&#39;,&#39;fltvar&#39;,&#39;strvar&#39;],
-    ...     delimiter=[1,3,5])
-    &gt;&gt;&gt; data
-    array((1, 1.3, b&#39;abcde&#39;),
-          dtype=[(&#39;intvar&#39;, &#39;&lt;i8&#39;), (&#39;fltvar&#39;, &#39;&lt;f8&#39;), (&#39;strvar&#39;, &#39;S5&#39;)])
-    
-    An example to show comments
-    
-    &gt;&gt;&gt; f = StringIO(&#39;&#39;&#39;
-    ... text,# of chars
-    ... hello world,11
-    ... numpy,5&#39;&#39;&#39;)
-    &gt;&gt;&gt; np.genfromtxt(f, dtype=&#39;S12,S12&#39;, delimiter=&#39;,&#39;)
-    array([(b&#39;text&#39;, b&#39;&#39;), (b&#39;hello world&#39;, b&#39;11&#39;), (b&#39;numpy&#39;, b&#39;5&#39;)],
-      dtype=[(&#39;f0&#39;, &#39;S12&#39;), (&#39;f1&#39;, &#39;S12&#39;)])
-
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">genfromtxt</span><span class="p">(</span><span class="s2">&quot;../Data/mixed_data.txt&quot;</span><span class="p">,</span> <span class="n">skip_header</span><span class="o">=</span><span class="mi">2</span> <span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
@@ -14330,27 +13951,6 @@ genfromtxt(fname, dtype=&lt;class &#39;float&#39;&gt;, comments=&#39;#&#39;, del
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[20]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([(&#39;F&#39;, 50, 37), (&#39;M&#39;, 78, 41)],
-      dtype=[(&#39;gender&#39;, &#39;&lt;U1&#39;), (&#39;weight&#39;, &#39;&lt;i8&#39;), (&#39;age&#39;, &#39;&lt;i8&#39;)])</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14425,7 +14025,7 @@ Esempi:</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">l1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span>
@@ -14437,30 +14037,10 @@ Esempi:</p>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[41]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[(1, &#39;a&#39;), (2, &#39;b&#39;), (3, &#39;c&#39;)]</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">l1</span> <span class="o">=</span> <span class="s1">&#39;pippo&#39;</span>
@@ -14472,30 +14052,10 @@ Esempi:</p>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[42]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[(&#39;p&#39;, &#39;p&#39;), (&#39;i&#39;, &#39;l&#39;), (&#39;p&#39;, &#39;u&#39;), (&#39;p&#39;, &#39;t&#39;), (&#39;o&#39;, &#39;o&#39;)]</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">l1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
@@ -14504,26 +14064,6 @@ Esempi:</p>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[43]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[(1, &#39;p&#39;), (2, &#39;l&#39;), (3, &#39;u&#39;), (4, &#39;t&#39;), (5, &#39;o&#39;)]</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
