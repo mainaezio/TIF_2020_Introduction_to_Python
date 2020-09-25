@@ -1,0 +1,19 @@
+Cari studenti di TIF 2020,
+
+Benvenuti!
+
+Il link per seguire lezioni ed esercitazioni è: https://unito.webex.com/meet/ezio.maina
+
+Il materiale didattico è disponibile su: http://personalpages.to.infn.it/~maina/didattica/TIF_2020/
+
+Verrà utilizzato Python 3. Il modo più semplice per avere Python e tutte le librarie che vi serviranno è scaricare la distribuzione ANACONDA dal sito: https://www.anaconda.com/products/individual#download-section
+
+Il corso utilizzerà il metodo dell'insegnamento capovolto https://it.wikipedia.org/wiki/Insegnamento_capovolto.
+
+Il corso e il suo metodo verranno presentato presentati in una lezione introduttiva via web.
+
+Gli studenti dovranno consultare autonomamente il contenuto del materiale registrato prima di ogni incontro. Gli incontri serviranno per approfondimenti, chiarimento dei concetti, esercitazioni.
+
+cordiali saluti,
+
+Ezio Maina
