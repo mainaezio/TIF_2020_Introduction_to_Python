@@ -23,4 +23,5 @@ Untitled*.ipynb
 /html/EserciziLaboratori/*sol*
 /html/Messaggi/*
 /ShellPrograms/Untitled.ipynb
-Images/.ipynb_checkpoints/*
+/Images/.ipynb_checkpoints/*
+/html/.ipynb_checkpoints/*
