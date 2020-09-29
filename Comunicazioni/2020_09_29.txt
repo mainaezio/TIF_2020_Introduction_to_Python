@@ -1,0 +1,43 @@
+Cari studenti di TIF 2020,
+
+Oggetto: Lezioni/Esercitazioni del 2/10 e 5/10
+
+Le esercitazioni/Lezioni inizieranno su https://unito.webex.com/meet/ezio.maina
+All'inizio collegatevi con questa stanza.
+
+Dopo una presentazione generale ciascun gruppo si dividerà su due stanze per facilitare l'interazione con me e con gli studenti che collaborano con me: Lorenzo Cane, Niccolò Fonio, Jacopo Pasqualino e Michele Risino.
+
+
+Le stanze addizionali sono:
+
+Gruppo A1: Venerdì 2/10 ore 9:00
+https://unito.webex.com/unito/j.php?MTID=m338e9653e57f3ea6f9000dbbb48267ea
+Numero riunione: 121 693 4565
+Password riunione: Lab-A1a
+
+Gruppo A2: Venerdì 2/10 ore 16:00
+https://unito.webex.com/unito/j.php?MTID=m2a1cced30e0c5ac430589bc8f9fa6a1d
+Numero riunione: 121 639 8088
+Password riunione: Lab-A2a
+
+Gruppo B1: Lunedì 5/10 ore 11:00
+https://unito.webex.com/unito/j.php?MTID=m094351be628d718f1a5dfea08db0c820
+Numero riunione: 121 032 6524
+Password riunione: Lab-B1a
+
+Gruppo B2: Lunedì 5/10 ore 14:00
+https://unito.webex.com/unito/j.php?MTID=m264b0bc13f482d17806ecc830bd4dba1
+Numero riunione: 121 468 0923
+Password riunione: Lab_B2a
+
+
+Prima delle lezioni:
+Finire 02_Primi_Passi. In particolare la parte su come definire delle funzioni.
+Studiare/Eseguire 03_Tipi_di_Dati fino alle Sequenze ESCLUSE.
+
+
+Gli studenti dovranno consultare autonomamente il contenuto del materiale registrato prima di ogni incontro. Gli incontri serviranno per approfondimenti, chiarimento dei concetti, esercitazioni.
+
+cordiali saluti,
+
+Ezio Maina
