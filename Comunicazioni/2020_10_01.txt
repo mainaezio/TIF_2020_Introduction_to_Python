@@ -1,0 +1,10 @@
+Cari studenti di TIF 2020,
+
+Oggetto: Lezioni/Esercitazioni del 2/10 e 5/10
+
+Per cortesia, scaricate il nuovo file http://personalpages.to.infn.it/~maina/didattica/TIF_2020/ipynb/03a_NumeriComplessi_Trigonometria.ipynb
+che utilizzar&ograve; nelle prossime esercitazioni.
+
+cordiali saluti,
+
+Ezio Maina
