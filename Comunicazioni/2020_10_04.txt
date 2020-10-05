@@ -1,0 +1,13 @@
+Cari studenti di TIF 2020,
+
+Dal 6/10 al 9/10 nella seconda parte della lezione ci sarà il primo test con valutazine.
+
+Si tratterà di scrivere delle due o tre funzioni usando le operazioni in math/cmath.
+
+Nella prima parte di ciascuna lezione  avrete modo di esercitarvi.
+
+Non vi fate prendere dal panico, sarà un test semplice.
+
+cordiali saluti,
+
+Ezio Maina
