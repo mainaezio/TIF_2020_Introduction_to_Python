@@ -1,0 +1,42 @@
+Cari studenti di TIF 2020,
+
+Il prossimo turno di esercitazioni si svolgerà dal 6/10 al 9/10.
+Le esercitazioni/Lezioni inizieranno su https://unito.webex.com/meet/ezio.maina
+All'inizio collegatevi con questa stanza.
+
+
+Le stanze addizionali saranno:
+
+Gruppo A1: Martedì 6/10 ore 14:00
+https://unito.webex.com/unito/j.php?MTID=m17182e522a0eecb48b9d4a5a3c3aebc7
+Numero riunione: 121 935 8695
+Password riunione: Lab-A1
+
+Gruppo A2: Mercoledì 7/10 ore 14:00
+https://unito.webex.com/unito/j.php?MTID=m0369a52425411cc98d2e4543e2ca1701
+Numero riunione: 121 074 5008
+Password riunione: Lab-A2
+
+Gruppo B1: Giovedì 8/10 ore 14:00
+https://unito.webex.com/unito/j.php?MTID=m3b62d7a8e9477a2e4a8c2685999bcd7c
+Numero riunione: 121 318 5153
+Password riunione: Lab_B1
+
+Gruppo B2: Venerdì 9/10 ore 09:00
+https://unito.webex.com/unito/j.php?MTID=mdda2b99bed8aa6d79040f3b06a9845c0
+Numero riunione: 121 773 9650
+Password riunione: Lab-B2
+
+
+
+Nella seconda parte della lezione ci sarà il primo test con valutazine.
+
+Si tratterà di scrivere delle due o tre funzioni usando le operazioni in math/cmath.
+
+Nella prima parte di ciascuna lezione  avrete modo di esercitarvi.
+
+Non vi fate prendere dal panico, sarà un test semplice.
+
+cordiali saluti,
+
+Ezio Maina
