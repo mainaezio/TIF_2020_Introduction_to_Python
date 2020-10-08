@@ -1,0 +1,38 @@
+Cari studenti di TIF 2020,
+
+Il prossimo turno di esercitazioni si svolgerà dal 9/10 pomeriggio al 13/10.
+Le esercitazioni/Lezioni inizieranno su https://unito.webex.com/meet/ezio.maina
+All'inizio collegatevi con questa stanza.
+
+
+Prima della lezione studiate e fate pratica su lla seconda parte di
+03_Tipi_di_Dati.ipynb: stringhe, liste, ntuple e dizionari. 
+Il concetto di uguaglianza e di identità.
+
+
+Le stanze addizionali saranno:
+
+Gruppo A1: Venerdì 9/10 ore 16:00
+https://unito.webex.com/unito/j.php?MTID=m01ffb68d3fdebfc4418305d74f0019f0
+Numero riunione: 121 784 5440
+Password riunione: Lab-A1
+
+Gruppo A2: Lunedì 12/10 ore 14:00
+https://unito.webex.com/unito/j.php?MTID=mdf32a606d0503540803427a212a0dfac
+Numero riunione: 121 183 9937
+Password riunione: Lab-A2
+
+Gruppo B1: Martedì 13/10 ore 09:00
+https://unito.webex.com/unito/j.php?MTID=m3b62d7a8e9477a2e4a8c2685999bcd7c
+Numero riunione: 121 318 5153
+Password riunione: Lab_B1
+
+Gruppo B2: Martedì 13/10 ore 14:00
+https://unito.webex.com/unito/j.php?MTID=mbda84ffc3eebbfb6873424dd15d1e9b7
+Numero riunione: 121 571 3822
+Password riunione: Lab-B2
+
+
+cordiali saluti,
+
+Ezio Maina
