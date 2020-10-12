@@ -1,0 +1,38 @@
+Cari studenti di TIF 2020,
+
+Il prossimo turno di esercitazioni si svolgerà dal 14/10 al 16/10.
+Le esercitazioni/Lezioni inizieranno su https://unito.webex.com/meet/ezio.maina
+All'inizio collegatevi con questa stanza.
+
+
+Prima della lezione studiate e fate pratica sul notebook 04_control-flow che descrive
+il comando "if-then-else" e i cicli.
+
+
+Le stanze addizionali saranno:
+
+Gruppo A1: Mercoledì 14/10 ore 11:00
+https://unito.webex.com/unito/j.php?MTID=m52111e27470c13b72ad621a50cd3a517
+Numero riunione: 121 453 9700
+Password riunione: Lab-A1
+
+Gruppo A2: Mercoledì 14/10 ore 14:00
+https://unito.webex.com/unito/j.php?MTID=m6c10eb60001662ca048edb2815478d35
+Numero riunione: 121 102 9384
+Password riunione: Lab-A2
+
+Gruppo B1: Giovedì 15/10 ore 11:00
+https://unito.webex.com/unito/j.php?MTID=m6fc7bf0a9fb0aed860e664ea86d170f4
+Numero riunione: 121 523 1266
+Password riunione: Lab_B1
+
+Gruppo B2: Venerdì 16/10 ore 09:00
+https://unito.webex.com/unito/j.php?MTID=mc60f22dcac41363fae2692428a647208
+Numero riunione: 121 466 8610
+Password riunione: Lab-B2
+
+
+
+cordiali saluti,
+
+Ezio Maina
