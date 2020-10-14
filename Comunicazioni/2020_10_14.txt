@@ -1,0 +1,44 @@
+Cari studenti di TIF 2020,
+
+Il prossimo turno di esercitazioni si svolgerà dal 16/10 al 20/10.
+Le esercitazioni/Lezioni inizieranno su https://unito.webex.com/meet/ezio.maina
+All'inizio collegatevi con questa stanza.
+
+Prima della lezione studiate e fate pratica sul notebook 05_input-output-files
+fino a "Leggere e scrivere files" ESCLUSO.
+I comandi di formattazione sono piuttosto semplici, quindi dedicherò tutto
+il tempo della lezione ad esercizi.
+
+
+Le stanze addizionali saranno:
+
+Gruppo A1: Venerdì 16/10 ore 16:00
+https://unito.webex.com/unito/j.php?MTID=m2ef1b7c8e3ac7cc178f326f38f713c85
+Numero riunione: 121 114 3590
+Password riunione: Lab-A1
+
+Gruppo A2: Lunedì 19/10 ore 11:00
+https://unito.webex.com/unito/j.php?MTID=m320f112270d8918f46e94c55873a6f01
+Numero riunione: 121 344 9309
+Password riunione: Lab-A2
+
+Gruppo B1: Lunedì 19/10 ore 14:00
+https://unito.webex.com/unito/j.php?MTID=maccf40f84b13164c113bb27d94e04504
+Numero riunione: 121 553 8051
+Password riunione: Lab_B1
+
+Gruppo B2: Martedì 20/10 ore 09:00
+ACCEDI A RIUNIONE WEBEX
+https://unito.webex.com/unito/j.php?MTID=mffbe8e4574d02dffab46a07e52a8cb3b
+Numero riunione: 121 801 5839
+Password riunione: Lab-B2
+
+
+
+Nella seconda parte della lezione ci sarà il secondo test con valutazine.
+Il test includerà la formattazione di stringhe.
+
+
+Cordiali Saluti,
+
+Ezio Maina
