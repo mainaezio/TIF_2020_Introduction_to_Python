@@ -1,0 +1,36 @@
+Cari studenti di TIF 2020,
+
+Il prossimo turno di esercitazioni si svolgerà dal 20/10 al 22/10.
+Le esercitazioni/Lezioni inizieranno su https://unito.webex.com/meet/ezio.maina
+All'inizio collegatevi con questa stanza.
+
+Prima della lezione studiate e fate pratica sul notebook 06_funzioni_moduli
+e 07_numpy fino a "Matrici" ESCLUSO.
+
+
+Le stanze addizionali saranno:
+
+Gruppo A1: Martedì 20/10 ore 14:00
+https://unito.webex.com/unito/j.php?MTID=ma0cddc7076323e9b3e73303101c5b6ba
+Numero riunione: 121 054 2393
+Password riunione: Lab-A1
+
+Gruppo A2:  Martedì 20/10 ore 16:00
+https://unito.webex.com/unito/j.php?MTID=me02e095caad9988f7fcd0081d0882789
+Numero riunione: 121 764 9337
+Password riunione: Lab-A2
+
+Gruppo B1:  Giovedì 22/10 ore 14:00
+https://unito.webex.com/unito/j.php?MTID=mc708ac4f86d4c7bb62c79a42dd3fb410
+Numero riunione: 121 520 0692
+Password riunione: Lab-B1
+
+Gruppo B2: Mercoledì 21/10 ore 14:00
+https://unito.webex.com/unito/j.php?MTID=m6b6ee5bbf31fe33e88e3fc4d337bf3cc
+Numero riunione: 121 558 4306
+Password riunione: Lab-B2
+
+
+Cordiali Saluti,
+
+Ezio Maina
