@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>11a_Esercizi</title>
+<title>08b_Laboratorio</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13017,45 +13017,6 @@ ul.typeahead-list  > li > a.pull-right {
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
-<style type="text/css">
-    
-/* Temporary definitions which will become obsolete with Notebook release 5.0 */
-.ansi-black-fg { color: #3E424D; }
-.ansi-black-bg { background-color: #3E424D; }
-.ansi-black-intense-fg { color: #282C36; }
-.ansi-black-intense-bg { background-color: #282C36; }
-.ansi-red-fg { color: #E75C58; }
-.ansi-red-bg { background-color: #E75C58; }
-.ansi-red-intense-fg { color: #B22B31; }
-.ansi-red-intense-bg { background-color: #B22B31; }
-.ansi-green-fg { color: #00A250; }
-.ansi-green-bg { background-color: #00A250; }
-.ansi-green-intense-fg { color: #007427; }
-.ansi-green-intense-bg { background-color: #007427; }
-.ansi-yellow-fg { color: #DDB62B; }
-.ansi-yellow-bg { background-color: #DDB62B; }
-.ansi-yellow-intense-fg { color: #B27D12; }
-.ansi-yellow-intense-bg { background-color: #B27D12; }
-.ansi-blue-fg { color: #208FFB; }
-.ansi-blue-bg { background-color: #208FFB; }
-.ansi-blue-intense-fg { color: #0065CA; }
-.ansi-blue-intense-bg { background-color: #0065CA; }
-.ansi-magenta-fg { color: #D160C4; }
-.ansi-magenta-bg { background-color: #D160C4; }
-.ansi-magenta-intense-fg { color: #A03196; }
-.ansi-magenta-intense-bg { background-color: #A03196; }
-.ansi-cyan-fg { color: #60C6C8; }
-.ansi-cyan-bg { background-color: #60C6C8; }
-.ansi-cyan-intense-fg { color: #258F8F; }
-.ansi-cyan-intense-bg { background-color: #258F8F; }
-.ansi-white-fg { color: #C5C1B4; }
-.ansi-white-bg { background-color: #C5C1B4; }
-.ansi-white-intense-fg { color: #A1A6B2; }
-.ansi-white-intense-bg { background-color: #A1A6B2; }
-
-.ansi-bold { font-weight: bold; }
-
-    </style>
 
 
 <style type="text/css">
@@ -13116,14 +13077,21 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Programmare-in-Python">Programmare in Python<a class="anchor-link" href="#Programmare-in-Python">&#182;</a></h1><h2 id="Esercizi:-Scipy">Esercizi: Scipy<a class="anchor-link" href="#Esercizi:-Scipy">&#182;</a></h2>
+<h1 id="Programmare-in-Python">Programmare in Python<a class="anchor-link" href="#Programmare-in-Python">&#182;</a></h1><h2 id="Laboratorio:-Plots">Laboratorio: Plots<a class="anchor-link" href="#Laboratorio:-Plots">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>1 - Trovate le intersezioni fra le curva $y = x^2 - 4 \sqrt{x}$ e la retta $y = 3$.</strong></p>
+<h3 id="Esercizi">Esercizi<a class="anchor-link" href="#Esercizi">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>1 - Costruite un array x0 che contenga 101 punti equidistanti fra 0 e 4. Costruite l'array y0 = x**2 + 3*x. Fate lo scatter plot di y0 in funzione di x0.</strong></p>
 
 </div>
 </div>
@@ -13144,7 +13112,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>2 - Determinare  le due soluzioni più vicine all’origine di: $\sin(x) + \cos(x) = 0$. Verificare la soluzione facendo il grafico.</strong></p>
+<p><strong>2 - Fate il plot di $\frac{\sin (x)}{x}$ in $ -3 \le x \le 3$. Cosa succede se fra i punti in cui calcolo la funzione c'è $x \,=\, 0$? Come posso aggirare il problema?</strong></p>
 
 </div>
 </div>
@@ -13165,8 +13133,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>3 - Calcolate numericamente, usando la funzione <code>quad</code>, l'integrale:</strong>
-$$\int_0^1 e^{-x^2}$$</p>
+<p><strong>3 - Create quattro plot disposti su due righe. Nei quattro plot il grafico di $f_n = \frac{x^n -3}{1+x^4}$ per $n$ = 1,2,3,4 in $\, -4 \le x \le 4\,$. Inserite i titoli e i titoli degli assi in ciascuno dei quattro grafici.__</strong></p>
 
 </div>
 </div>
@@ -13187,9 +13154,80 @@ $$\int_0^1 e^{-x^2}$$</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>4 - Calcolate l'integrale:</strong>
-$$\int_0^4 \sqrt{4 - x^2}$$
-<strong>Confrontate il risultato esatto $4\, \pi$.</strong></p>
+<p><strong>4 - In un unico grafico, disegnate le funzioni $f_n = x^n$ con $n$ in <code>range(1,5)</code>. Inserite gli elementi grafici opportuni per rendere la figura comprensibile.</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>5 - Fate il plot di $\tan (x)$.</strong> (D.J.Pine, Introduction to Python for Science and Engineering, 6.2.3)</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>7 -</strong>
+<strong>Generate casualmente, in modo uniforme, le coordinate (reali) x e y, comprese fra 0 e 10, di 50 punti.</strong><BR>
+<strong>Fate il plot dei punti generati.</strong><BR>
+<strong>Generate casualmente, in modo uniforme, le componenti vx e vy, comprese fra -2 e 2, di 50 velocità, una per ciascun punto.</strong><BR> 
+<strong>Supponendo che ciascun punto si muova di moto uniforme con la corrispondente velocità, trovate la posizione dei punti dopo 2 secondi.</strong><BR>
+<strong>Fate il plot dei nuovi punti.</strong><BR></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>8 -</strong>
+<strong>Nell'esercizio precedente, se un punto a t=2 risulta essere al di fuori di 0 &lt; x &lt; 10, 0 &lt; y &lt; 10, introducete l'effetto dell'urto con le pareti, generalizzando la regola:</strong></p>
+<ul>
+<li><strong>Se x &gt;10 , x --&gt; 10 - (x - 10)</strong></li>
+<li><strong>Se y &gt;10 , y --&gt; 10 - (y - 10)</strong></li>
+</ul>
 
 </div>
 </div>

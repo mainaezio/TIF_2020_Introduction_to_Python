@@ -13017,45 +13017,6 @@ ul.typeahead-list  > li > a.pull-right {
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
-<style type="text/css">
-    
-/* Temporary definitions which will become obsolete with Notebook release 5.0 */
-.ansi-black-fg { color: #3E424D; }
-.ansi-black-bg { background-color: #3E424D; }
-.ansi-black-intense-fg { color: #282C36; }
-.ansi-black-intense-bg { background-color: #282C36; }
-.ansi-red-fg { color: #E75C58; }
-.ansi-red-bg { background-color: #E75C58; }
-.ansi-red-intense-fg { color: #B22B31; }
-.ansi-red-intense-bg { background-color: #B22B31; }
-.ansi-green-fg { color: #00A250; }
-.ansi-green-bg { background-color: #00A250; }
-.ansi-green-intense-fg { color: #007427; }
-.ansi-green-intense-bg { background-color: #007427; }
-.ansi-yellow-fg { color: #DDB62B; }
-.ansi-yellow-bg { background-color: #DDB62B; }
-.ansi-yellow-intense-fg { color: #B27D12; }
-.ansi-yellow-intense-bg { background-color: #B27D12; }
-.ansi-blue-fg { color: #208FFB; }
-.ansi-blue-bg { background-color: #208FFB; }
-.ansi-blue-intense-fg { color: #0065CA; }
-.ansi-blue-intense-bg { background-color: #0065CA; }
-.ansi-magenta-fg { color: #D160C4; }
-.ansi-magenta-bg { background-color: #D160C4; }
-.ansi-magenta-intense-fg { color: #A03196; }
-.ansi-magenta-intense-bg { background-color: #A03196; }
-.ansi-cyan-fg { color: #60C6C8; }
-.ansi-cyan-bg { background-color: #60C6C8; }
-.ansi-cyan-intense-fg { color: #258F8F; }
-.ansi-cyan-intense-bg { background-color: #258F8F; }
-.ansi-white-fg { color: #C5C1B4; }
-.ansi-white-bg { background-color: #C5C1B4; }
-.ansi-white-intense-fg { color: #A1A6B2; }
-.ansi-white-intense-bg { background-color: #A1A6B2; }
-
-.ansi-bold { font-weight: bold; }
-
-    </style>
 
 
 <style type="text/css">
@@ -13116,16 +13077,100 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Programmare-in-Python">Programmare in Python<a class="anchor-link" href="#Programmare-in-Python">&#182;</a></h1><h2 id="Laboratorio:-Calcolo-Simbolico">Laboratorio: Calcolo Simbolico<a class="anchor-link" href="#Laboratorio:-Calcolo-Simbolico">&#182;</a></h2>
+<h1 id="Programmare-in-Python">Programmare in Python<a class="anchor-link" href="#Programmare-in-Python">&#182;</a></h1><h2 id="Laboratorio:-Numpy">Laboratorio: Numpy<a class="anchor-link" href="#Laboratorio:-Numpy">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Come importare un dataset che contiene sia numeri che testo, lasciando il testo inalterato. Si veda <a href="https://archive.ics.uci.edu/ml/datasets/Iris">https://archive.ics.uci.edu/ml/datasets/Iris</a></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data&#39;</span>
+<span class="n">iris</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">genfromtxt</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s1">&#39;,&#39;</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="s1">&#39;object&#39;</span><span class="p">)</span>
+<span class="n">names</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;sepallength&#39;</span><span class="p">,</span> <span class="s1">&#39;sepalwidth&#39;</span><span class="p">,</span> <span class="s1">&#39;petallength&#39;</span><span class="p">,</span> <span class="s1">&#39;petalwidth&#39;</span><span class="p">,</span> <span class="s1">&#39;species&#39;</span><span class="p">)</span>
+
+<span class="c1"># Print the first 3 rows</span>
+<span class="n">iris</span><span class="p">[:</span><span class="mi">3</span><span class="p">]</span>
+
+<span class="c1"># Il prefisso b prima di ciascun risultato deriva dal fatto che genfromtxt lavora in bytes, </span>
+<span class="c1"># che era il tipo di default per le strighe in Python 2.</span>
+<span class="c1"># Python 3 usa Unicode e premette b per segnalare stringhe in bytes.</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[7]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([[b&#39;5.1&#39;, b&#39;3.5&#39;, b&#39;1.4&#39;, b&#39;0.2&#39;, b&#39;Iris-setosa&#39;],
+       [b&#39;4.9&#39;, b&#39;3.0&#39;, b&#39;1.4&#39;, b&#39;0.2&#39;, b&#39;Iris-setosa&#39;],
+       [b&#39;4.7&#39;, b&#39;3.2&#39;, b&#39;1.3&#39;, b&#39;0.2&#39;, b&#39;Iris-setosa&#39;]], dtype=object)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">help</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">genfromtxt</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Esercizi">Esercizi<a class="anchor-link" href="#Esercizi">&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>1 - Derivate l'espressione della retta tangente a:
-$$ f(x) = \frac{x^2+6x-1}{4x^2-x+3}$$
-nel punto $x = 1$. Suggerimento: $y(x) = a\, (x-1) + b$.</strong></p>
+<p><strong>1 - Scrivere (usando NumPy) una funzione che calcoli $\sin (x)/x$. Cosa succede in $x \,=\, 0$? Come superare il problema?<br>
+Confrontate la funzione con lo sviluppo in serie di $\sin (x)/x$ nell'intorno di $x \,=\, 0$.</strong></p>
 
 </div>
 </div>
@@ -13146,8 +13191,11 @@ nel punto $x = 1$. Suggerimento: $y(x) = a\, (x-1) + b$.</strong></p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>2 - Il teorema fondamentale dell'analisi afferma che l'integrazione e la derivazioni sono una l'operazione inversa dell'altra:</strong></p>
-$$\left( \frac{d}{dx} \circ \int dx \right) = \frac{d}{dx} \int_a^x f(y)\, dy = f(x)$$$$\left( \int dx  \circ \frac{d}{dx} \right) =\int_a^x \frac{df(y)}{dy}\, dy = f(x) + C$$<p><strong>Verificare il teorema per le funzioni $f_1 = x^3$ e $f_2 = \cos(x)$.</strong></p>
+<p><strong>2 - Usando NumPy completate le seguenti operazioni. Ciascun problema può essere risolto in modo elegante con poche (1-3) linee di codice. Ricordate però il principio "Start now, perfect later".<br>
+(a) Create un array 8 × 8 che abbia uno su tutti i bordi e zero in tutte le altre posizioni.<br>
+(b) Create un array 8 × 8 con una disposizione a scacchiera di uno e zero.<br>
+(c) Dato l'array c = np.arange(2, 50, 5), rendete negativi tutti i numeri non divisibili per tre.
+(d) Determinate il size e la shape degli array creati ai punti (a)–(c).</strong></p>
 
 </div>
 </div>
@@ -13168,10 +13216,10 @@ $$\left( \frac{d}{dx} \circ \int dx \right) = \frac{d}{dx} \int_a^x f(y)\, dy = 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>3 - Calcolate la derivata prima e la derivata seconda di:</strong>
-$$ f(x) = \frac{x^2+6x-1}{4x^2-x+3}$$
-<strong>Quali sono i punti in cui la funzione $f$ non è definita?</strong><br>
-<strong>Trovate eventuali massimi e minimi.</strong></p>
+<p><strong>3 - Risolvete il sistema di equazioni lineari:</strong>
+$$ 2 x_1 + 4 x_2 + 6 x_3 = 4$$
+$$ x_1 − 3 x_2 − 9 x_3 = −11$$
+$$8 x_1 + 5 x_2 − 7 x_3 = 1$$</p>
 
 </div>
 </div>
@@ -13192,10 +13240,11 @@ $$ f(x) = \frac{x^2+6x-1}{4x^2-x+3}$$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>4 - Create l'espressione:</strong>
-$$f = x e^{-x} + x (1-x)$$
-<strong>Valutatela per:</strong>
-$x = 0, 0.1, 0.2, 0.4, 0.8$</p>
+<p><strong>4 - La posizione, al tempo t, di una palla che sia stata lasciata cadere con velocità iniziale nulla da una altezza $h_0$ è data da:
+$$y = h_0 − \frac{1}{2}\, g\, t^2$$ 
+dove $g = 9.81 m/s^2$. Supponiamo $h0 = 10\, m$. Trovate la sequenza di tempi a cui la palla completa ciascun intervallo di lunghezza mezzo metro, supponendo che la palla sia lasciata cadere a t=0. <br>
+Suggerimento: create un array NumPy per y che va da 10 a 0 in incrementi di −0.5 usando la funzione arange.<br>
+Salvate il vostro codice in una funzione. Una volta creati gli array y e t eseguite il comando <code>list(zip(t, y))</code>. Interpretate il risultato.</strong>(D.J.Pine - Introduction to Python for Science and Engineering)</p>
 
 </div>
 </div>
@@ -13216,29 +13265,10 @@ $x = 0, 0.1, 0.2, 0.4, 0.8$</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>5 - Fattorizzate il polinomio $x^{4} - 6 x^{3} + x^{2} + 24 x + 16$. Poi trovate i suoi zeri.</strong></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>6 - Sviluppate in serie fino al terzo ordine $f = x e^{-x} + x (1-x)$ in $x = -0.5$.
-Valutate la differenza assoluta e percentuale fra la funzione $f$ e lo sviluppo in serie per $x = -0.7,-0.6,-0.5,-0.4,-0.3$.</strong></p>
+<p><strong>5 - Ricordando che la velocità media su un intervallo $\Delta t$ è definita come $\bar{v} = \Delta y/\Delta t$, trovate la velocità media per ciascun intervallo del problema precedente utilizzando gli array NumPy.<br>
+Suggerimento: cosa sono gli array y[1:20] e y[0:19]?.<br> 
+Bonus 1: riuscite a immaginare un modo più elegante di rappresentare y[1:20]-y[0:19] che non fa riferimento esplicito al numero di elementi dell'array y, cioè che funzionerebbe per un array di lunghezza arbitraria?<br>
+Bonus 2: Calcolate l'accelerazione in funzione del tempo usando la formula $\bar{a} = \Delta v/\Delta t$. Esprimete i tempi a cui le velocità sono calcolate prendendo il punto medio degli intervalli dell'array dei tempi usato in precedenza. Spiegate il risultato ottenuto per le accelerazioni.</strong>(D.J.Pine - Introduction to Python for Science and Engineering)</p>
 
 </div>
 </div>

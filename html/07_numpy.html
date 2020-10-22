@@ -13086,9 +13086,9 @@ div#notebook {
 <li><p>diverse  operazioni legate all'algebra lineare (come risolvere sistemi di equazioni lineari, calcolo di autovettori e autovalori).</p>
 </li>
 </ul>
-<h3 id="L'array">L'array<a class="anchor-link" href="#L'array">&#182;</a></h3><p>NumPy introduce un nuovo tipo di dati detto “<code>array</code>”. Un array <em>sembra</em> molto simile a una lista ma un array può contenere solo elementi di un singolo tipo (mentre una lista può contenere oggetti di tipo diverso). Questo significa che gli array possono essere scritti in memoria in modo più efficiente. Gli array sono la struttura di dati migliore per i calcoli numerici in cui spesso si ha a che fare con vettori e matrici di tipo omogeneo.</p>
+<h2 id="L'array">L'array<a class="anchor-link" href="#L'array">&#182;</a></h2><p>NumPy introduce un nuovo tipo di dati detto “<code>array</code>”. Un array <em>sembra</em> molto simile a una lista ma un array può contenere solo elementi di un singolo tipo (mentre una lista può contenere oggetti di tipo diverso). Questo significa che gli array possono essere scritti in memoria in modo più efficiente. Gli array sono la struttura di dati migliore per i calcoli numerici in cui spesso si ha a che fare con vettori e matrici di tipo omogeneo.</p>
 <p>Vettori, matrici bidimensionali e matrici con più di due indici sono tutti chiamati “arrays” in NumPy.</p>
-<h4 id="Vettor1-(1d-arrays)">Vettor1 (1d-arrays)<a class="anchor-link" href="#Vettor1-(1d-arrays)">&#182;</a></h4><p>La struttura dati data che useremo più spesso è il vettore. Qualche esempio di come crearne uno:</p>
+<h3 id="Vettor1-(1d-arrays)">Vettor1 (1d-arrays)<a class="anchor-link" href="#Vettor1-(1d-arrays)">&#182;</a></h3><p>La struttura dati data che useremo più spesso è il vettore. Qualche esempio di come crearne uno:</p>
 <ul>
 <li>Conversione di una lista (o tuple) in un array usando <span>`numpy.array`</span>:</li>
 </ul>
@@ -13098,7 +13098,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -13110,28 +13110,10 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[0.  0.5 1.  1.5]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
@@ -13141,30 +13123,10 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[18]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>numpy.ndarray</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">type</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">])</span>
@@ -13174,56 +13136,16 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[2]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>list</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[3]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([0. , 0.5, 1. , 1.5])</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13240,7 +13162,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
@@ -13248,24 +13170,6 @@ div#notebook {
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[0.  0.5 1.  1.5]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -13282,7 +13186,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
@@ -13292,25 +13196,6 @@ div#notebook {
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[0. 0. 0. 0.]
-[1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -13325,7 +13210,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">1001</span><span class="p">)</span>
@@ -13335,57 +13220,16 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[6]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([ 0.  ,  0.01,  0.02, ...,  9.98,  9.99, 10.  ])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">21</span><span class="p">)</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[5]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([-1. , -0.9, -0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1,  0. ,
-        0.1,  0.2,  0.3,  0.4,  0.5,  0.6,  0.7,  0.8,  0.9,  1. ])</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13400,7 +13244,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">logspace</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
@@ -13408,26 +13252,6 @@ div#notebook {
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[64]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([   10.,   100.,  1000., 10000.])</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13449,7 +13273,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">array_f</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span> <span class="n">dtype</span><span class="o">=</span><span class="s1">&#39;float&#39;</span><span class="p">)</span>
@@ -13463,7 +13287,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">array_f</span>
@@ -13473,30 +13297,10 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[10]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([1., 2., 3.])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">array_i</span>
@@ -13506,56 +13310,16 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[11]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([1, 2, 3], dtype=int16)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">123456790</span><span class="p">],</span><span class="n">dtype</span><span class="o">=</span><span class="s1">&#39;int32&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[14]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([        1,         2, 123456790], dtype=int32)</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13570,7 +13334,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">array_f</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;complex&#39;</span><span class="p">)</span>
@@ -13580,31 +13344,11 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[15]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([1.+0.j, 2.+0.j, 3.+0.j])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Operazioni-su-array">Operazioni su array<a class="anchor-link" href="#Operazioni-su-array">&#182;</a></h4><ul>
+<h3 id="Operazioni-su-array">Operazioni su array<a class="anchor-link" href="#Operazioni-su-array">&#182;</a></h3><ul>
 <li>Una volta che l'array esiste, possiamo definire e recuperare il valore degli elementi. Per esempio:</li>
 </ul>
 
@@ -13613,7 +13357,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
@@ -13626,30 +13370,12 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[3.4 0.  4.  0. ]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>I metodi di slicing per le stringhe si possono applicare anche agli array:</li>
+<li>I metodi di slicing per le stringhe/liste/ntuple si possono applicare anche agli array:</li>
 </ul>
 
 </div>
@@ -13657,7 +13383,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
@@ -13668,22 +13394,26 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>La lunghezza di un array si ottiene con <code>len</code></li>
+</ul>
 
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>3.4
-[3.4 0.  4. ]
-</pre>
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
 
+    </div>
 </div>
 </div>
 
@@ -13700,7 +13430,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
@@ -13711,30 +13441,10 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[18]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x1</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span><span class="n">x</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span><span class="n">x</span><span class="p">[</span><span class="mi">5</span><span class="p">]]</span>
@@ -13743,37 +13453,6 @@ div#notebook {
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[2, 3, 5]
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[19]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>list</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13788,7 +13467,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">x1</span><span class="p">)</span>
@@ -13797,37 +13476,6 @@ div#notebook {
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[2 3 5]
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[20]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>numpy.ndarray</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13844,7 +13492,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">ind</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
@@ -13852,26 +13500,6 @@ div#notebook {
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[21]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([2, 3, 5])</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13889,7 +13517,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
@@ -13900,28 +13528,10 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[0.  0.5 1.  1.5]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="mi">10</span><span class="p">)</span>
@@ -13932,29 +13542,10 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[10.  10.5 11.  11.5]
-[ 0.  16.5 33.  49.5]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">x</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span>
@@ -13965,29 +13556,10 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[0.   0.25 1.   2.25]
-[0.         0.47942554 0.84147098 0.99749499]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">y1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">1.</span><span class="p">,</span><span class="mf">2.</span><span class="p">,</span><span class="mf">3.</span><span class="p">])</span>
@@ -13996,26 +13568,6 @@ div#notebook {
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[24]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([  0.,  -8., 103.])</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14031,7 +13583,7 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">myfunc</span><span class="p">(</span><span class="n">arr</span><span class="p">):</span>
@@ -14047,69 +13599,6 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[-5.  -4.9 -4.8 -4.7 -4.6 -4.5 -4.4 -4.3 -4.2 -4.1 -4.  -3.9 -3.8 -3.7
- -3.6 -3.5 -3.4 -3.3 -3.2 -3.1 -3.  -2.9 -2.8 -2.7 -2.6 -2.5 -2.4 -2.3
- -2.2 -2.1 -2.  -1.9 -1.8 -1.7 -1.6 -1.5 -1.4 -1.3 -1.2 -1.1 -1.  -0.9
- -0.8 -0.7 -0.6 -0.5 -0.4 -0.3 -0.2 -0.1  0.   0.1  0.2  0.3  0.4  0.5
-  0.6  0.7  0.8  0.9  1.   1.1  1.2  1.3  1.4  1.5  1.6  1.7  1.8  1.9
-  2.   2.1  2.2  2.3  2.4  2.5  2.6  2.7  2.8  2.9  3.   3.1  3.2  3.3
-  3.4  3.5  3.6  3.7  3.8  3.9  4.   4.1  4.2  4.3  4.4  4.5  4.6  4.7
-  4.8  4.9  5. ]
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[5]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([-4.24000e+02, -3.99967e+02, -3.76856e+02, -3.54649e+02,
-       -3.33328e+02, -3.12875e+02, -2.93272e+02, -2.74501e+02,
-       -2.56544e+02, -2.39383e+02, -2.23000e+02, -2.07377e+02,
-       -1.92496e+02, -1.78339e+02, -1.64888e+02, -1.52125e+02,
-       -1.40032e+02, -1.28591e+02, -1.17784e+02, -1.07593e+02,
-       -9.80000e+01, -8.89870e+01, -8.05360e+01, -7.26290e+01,
-       -6.52480e+01, -5.83750e+01, -5.19920e+01, -4.60810e+01,
-       -4.06240e+01, -3.56030e+01, -3.10000e+01, -2.67970e+01,
-       -2.29760e+01, -1.95190e+01, -1.64080e+01, -1.36250e+01,
-       -1.11520e+01, -8.97100e+00, -7.06400e+00, -5.41300e+00,
-       -4.00000e+00, -2.80700e+00, -1.81600e+00, -1.00900e+00,
-       -3.68000e-01,  1.25000e-01,  4.88000e-01,  7.39000e-01,
-        8.96000e-01,  9.77000e-01,  1.00000e+00,  9.83000e-01,
-        9.44000e-01,  9.01000e-01,  8.72000e-01,  8.75000e-01,
-        9.28000e-01,  1.04900e+00,  1.25600e+00,  1.56700e+00,
-        2.00000e+00,  2.57300e+00,  3.30400e+00,  4.21100e+00,
-        5.31200e+00,  6.62500e+00,  8.16800e+00,  9.95900e+00,
-        1.20160e+01,  1.43570e+01,  1.70000e+01,  1.99630e+01,
-        2.32640e+01,  2.69210e+01,  3.09520e+01,  3.53750e+01,
-        4.02080e+01,  4.54690e+01,  5.11760e+01,  5.73470e+01,
-        6.40000e+01,  7.11530e+01,  7.88240e+01,  8.70310e+01,
-        9.57920e+01,  1.05125e+02,  1.15048e+02,  1.25579e+02,
-        1.36736e+02,  1.48537e+02,  1.61000e+02,  1.74143e+02,
-        1.87984e+02,  2.02541e+02,  2.17832e+02,  2.33875e+02,
-        2.50688e+02,  2.68289e+02,  2.86696e+02,  3.05927e+02,
-        3.26000e+02])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -14121,33 +13610,13 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="mi">3</span><span class="o">*</span><span class="p">(</span><span class="o">-</span><span class="mf">4.9</span><span class="p">)</span><span class="o">**</span><span class="mi">3</span> <span class="o">-</span><span class="mi">2</span><span class="o">*</span><span class="p">(</span><span class="o">-</span><span class="mf">4.9</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span><span class="mf">1.</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[7]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>-399.9670000000001</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14164,7 +13633,7 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">arr</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">])</span>
@@ -14173,26 +13642,6 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[25]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([1, 3, 5, 7, 9])</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14207,33 +13656,13 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">arr</span> <span class="k">if</span> <span class="n">x</span><span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">1</span><span class="p">])</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[26]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([1, 3, 5, 7, 9])</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14250,7 +13679,7 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">arr</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">])</span>
@@ -14260,26 +13689,6 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[27]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([ 0, -1,  2, -1,  4, -1,  6, -1,  8, -1])</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14296,7 +13705,7 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[61]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#help(np.where)</span>
@@ -14309,7 +13718,7 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">arr</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
@@ -14322,41 +13731,10 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[0 1 2 3 4 5 6 7 8 9]
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[28]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([ 0, -1,  2, -1,  4, -1,  6, -1,  8, -1])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#help(np.where)</span>
@@ -14379,7 +13757,7 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">uniqs</span><span class="p">,</span> <span class="n">counts</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">unique</span><span class="p">(</span><span class="n">out</span><span class="p">,</span> <span class="n">return_counts</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -14391,28 +13769,10 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Unique items :  (array([-1,  0,  2,  4,  6,  8]), array([5, 1, 1, 1, 1, 1]))
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">uniqs2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">unique</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
@@ -14423,30 +13783,10 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[33]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([-1,  0,  2,  4,  6,  8])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#help(np.unique)</span>
@@ -14469,7 +13809,7 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">])</span>
@@ -14479,26 +13819,6 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[37]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([2, 4])</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14515,7 +13835,7 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">])</span>
@@ -14528,30 +13848,10 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[38]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([1, 2, 3, 4])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">])</span>
@@ -14564,30 +13864,10 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[39]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>(array([1, 3, 5, 7]),)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">a</span> <span class="o">==</span> <span class="n">b</span><span class="p">)</span>
@@ -14597,31 +13877,10 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[24]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([False,  True, False,  True, False,  True, False,  True, False,
-       False])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">a</span> <span class="o">==</span> <span class="n">b</span><span class="p">)</span><span class="o">.</span><span class="n">nonzero</span><span class="p">()</span>     <span class="c1"># restituisce gli indici degli elementi non nulli cioè di quelli non False</span>
@@ -14631,30 +13890,10 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[25]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>(array([1, 3, 5, 7]),)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">c</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">33</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span>
@@ -14667,7 +13906,7 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[62]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#help(np.asarray)</span>
@@ -14680,7 +13919,7 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[63]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#help(np.nonzero)</span>
@@ -14703,7 +13942,7 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
@@ -14714,30 +13953,10 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[41]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Metodo 1</span>
@@ -14749,28 +13968,10 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[ 5  6  7  8  9 10]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Metodo 2:</span>
@@ -14782,37 +13983,6 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[ 5  6  7  8  9 10]
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[43]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([ 5,  6,  7,  8,  9, 10])</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14828,7 +13998,68 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Matrici-(2d-arrays)">Matrici (2d-arrays)<a class="anchor-link" href="#Matrici-(2d-arrays)">&#182;</a></h4><p>Ecco due modi per creare un array a due dimensioni:</p>
+<h3 id="Convertire-da--array-a-lista-o-tuple">Convertire da  array a lista o tuple<a class="anchor-link" href="#Convertire-da--array-a-lista-o-tuple">&#182;</a></h3><p>Per convertire un array in una lista o una si possono usare le funzioni python standard <span>`list(s0)`</span> e <span>`tuple(s0)`</span> che accettano una sequenza <span>`s0`</span> come input e ritornano rispettivamente  una lista e una ntupla:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">10</span><span class="p">])</span>
+<span class="n">a</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">list</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">tuple</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Matrici-(2d-arrays)">Matrici (2d-arrays)<a class="anchor-link" href="#Matrici-(2d-arrays)">&#182;</a></h2><p>Ecco due modi per creare un array a due dimensioni:</p>
 <ul>
 <li>Convertendo una lista di liste (o tuples) in un array:</li>
 </ul>
@@ -14838,7 +14069,7 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span>
@@ -14848,27 +14079,6 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[44]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([[1, 2, 3],
-       [4, 5, 6]])</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14885,7 +14095,7 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">))</span>
@@ -14893,30 +14103,6 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[32]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([[0., 0., 0., 0.],
-       [0., 0., 0., 0.],
-       [0., 0., 0., 0.],
-       [0., 0., 0., 0.],
-       [0., 0., 0., 0.]])</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14931,7 +14117,7 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]])</span>
@@ -14940,38 +14126,6 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[[1 2 3]
- [4 5 6]]
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[45]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>(2, 3)</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14986,7 +14140,7 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]])</span>
@@ -14997,30 +14151,10 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[46]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>1</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
@@ -15030,30 +14164,10 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[47]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>2</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
@@ -15063,30 +14177,10 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[36]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>3</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
@@ -15096,30 +14190,10 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[37]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>4</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span>
@@ -15129,56 +14203,16 @@ Esempio: per calcolare i valori del polinomio y = 3* x**3 - 2*x**2 + 1 fra -5 e 
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[48]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([1, 4])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[49]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">,:]</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[49]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([1, 2, 3])</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -15198,7 +14232,7 @@ Un metodo è il seguente:  </li>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
@@ -15213,149 +14247,6 @@ Un metodo è il seguente:  </li>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[[0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]]
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[12]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([[-2.,  0.,  0.],
-       [ 0.,  5.,  0.],
-       [ 0.,  0.,  1.]])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Convertire-da--array-a-lista-o-tuple">Convertire da  array a lista o tuple<a class="anchor-link" href="#Convertire-da--array-a-lista-o-tuple">&#182;</a></h3><p>Per convertire un array in una lista o una si possono usare le funzioni python standard <span>`list(s0)`</span> e <span>`tuple(s0)`</span> che accettano una sequenza <span>`s0`</span> come input e ritornano rispettivamente  una lista e una ntupla:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">10</span><span class="p">])</span>
-<span class="n">a</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[40]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([ 1,  4, 10])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">list</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[41]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[1, 4, 10]</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">tuple</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[42]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>(1, 4, 10)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -15367,7 +14258,7 @@ Un metodo è il seguente:  </li>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[50]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="nb">float</span><span class="p">)</span>
@@ -15383,32 +14274,10 @@ Un metodo è il seguente:  </li>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Matrices and vectors.
-x:
-[1. 4. 0.]
-y:
-[2. 2. 1.]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Inner product of x and y:&quot;</span><span class="p">)</span>
@@ -15419,29 +14288,10 @@ y:
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Inner product of x and y:
-10.0
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Outer product of x and y:&quot;</span><span class="p">)</span>
@@ -15452,31 +14302,10 @@ y:
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Outer product of x and y:
-[[2. 2. 1.]
- [8. 8. 4.]
- [0. 0. 0.]]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[68]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Cross product of x and y:&quot;</span><span class="p">)</span>
@@ -15484,25 +14313,6 @@ y:
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Cross product of x and y:
-[ 4. -1. -6.]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -15517,7 +14327,7 @@ y:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -15531,32 +14341,10 @@ y:
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[[0.48601584 0.86131704 0.35596901 0.89474988 0.58762213]
- [0.58876207 0.81495536 0.7529959  0.39262698 0.66135676]
- [0.88687997 0.65901364 0.39207705 0.23034612 0.18386778]
- [0.85617656 0.53307785 0.14341995 0.63333911 0.98680831]
- [0.74267142 0.84515653 0.23080524 0.64115616 0.30361267]]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
@@ -15566,28 +14354,10 @@ y:
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[0.61046693 0.42096412 0.93950983 0.321917   0.91951374]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">b</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>                  <span class="c1"># multiplica la matrice A per il vettore x </span>
@@ -15595,24 +14365,6 @@ y:
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[1.47089633 1.42764905 1.06727441 1.27136238 1.27410243]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -15627,7 +14379,7 @@ y:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy.linalg</span> <span class="k">as</span> <span class="nn">LA</span>
@@ -15636,26 +14388,6 @@ y:
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[11]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([0.53192132, 0.54903903, 0.30480197, 0.17039768, 0.19668372])</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -15670,7 +14402,7 @@ y:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">A</span><span class="p">,</span><span class="n">x</span><span class="p">))</span>
@@ -15678,25 +14410,6 @@ y:
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[1.47089633 1.42764905 1.06727441 1.27136238 1.27410243]
-[1.47089633 1.42764905 1.06727441 1.27136238 1.27410243]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -15710,7 +14423,7 @@ y:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]])</span>
@@ -15723,7 +14436,7 @@ y:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">LA</span><span class="o">.</span><span class="n">det</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
@@ -15733,30 +14446,10 @@ y:
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[51]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>-2.9999999999999996</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">trace</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
@@ -15766,30 +14459,10 @@ y:
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[5]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>6</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#help(np.linalg)</span>
@@ -15810,7 +14483,7 @@ y:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy.linalg</span> <span class="k">as</span> <span class="nn">LA</span>
@@ -15826,7 +14499,7 @@ y:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">LA</span><span class="o">.</span><span class="n">det</span><span class="p">(</span><span class="n">R</span><span class="p">)</span>
@@ -15836,30 +14509,10 @@ y:
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[11]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>-2.0</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">evalues</span><span class="p">,</span> <span class="n">evectors</span> <span class="o">=</span> <span class="n">LA</span><span class="o">.</span><span class="n">eig</span><span class="p">(</span><span class="n">R</span><span class="p">)</span>
@@ -15872,31 +14525,13 @@ y:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">evalues</span><span class="p">)</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[-0.86080585  0.74589831  3.11490754]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -15911,7 +14546,7 @@ y:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">prod</span><span class="p">(</span><span class="n">evalues</span><span class="p">)</span>
@@ -15921,56 +14556,16 @@ y:
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[10]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>-2.0</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">evectors</span><span class="p">)</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[[ 0.43464691  0.7699547   0.85535358]
- [-0.85015846  0.49890739  0.38564667]
- [ 0.29717447 -0.39782052  0.34590013]]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -15986,7 +14581,7 @@ y:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">A1</span><span class="o">=</span><span class="n">evectors</span><span class="p">[:,</span><span class="mi">0</span><span class="p">]</span>
@@ -15997,28 +14592,10 @@ y:
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[ 0.43464691 -0.85015846  0.29717447]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">R</span><span class="p">,</span><span class="n">A1</span><span class="p">))</span>
@@ -16028,52 +14605,16 @@ y:
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[-0.3741466   0.73182138 -0.25580952]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">evalues</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">A1</span><span class="p">)</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[-0.3741466   0.73182138 -0.25580952]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -16096,7 +14637,7 @@ y:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">Theta</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
@@ -16116,36 +14657,13 @@ y:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Theta</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]))</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-2-b49266106206&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span>Theta<span class="ansi-blue-fg">(</span>np<span class="ansi-blue-fg">.</span>array<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">[</span><span class="ansi-blue-fg">-</span><span class="ansi-cyan-fg">3</span><span class="ansi-blue-fg">,</span><span class="ansi-blue-fg">-</span><span class="ansi-cyan-fg">2</span><span class="ansi-blue-fg">,</span><span class="ansi-blue-fg">-</span><span class="ansi-cyan-fg">1</span><span class="ansi-blue-fg">,</span><span class="ansi-cyan-fg">0</span><span class="ansi-blue-fg">,</span><span class="ansi-cyan-fg">1</span><span class="ansi-blue-fg">,</span><span class="ansi-cyan-fg">2</span><span class="ansi-blue-fg">,</span><span class="ansi-cyan-fg">3</span><span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">)</span>
-
-<span class="ansi-red-fg">NameError</span>: name &#39;np&#39; is not defined</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -16160,7 +14678,7 @@ y:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Theta_vec</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">vectorize</span><span class="p">(</span><span class="n">Theta</span><span class="p">)</span>
@@ -16173,33 +14691,13 @@ y:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Theta_vec</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]))</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[6]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([0, 0, 0, 1, 1, 1, 1])</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -16215,7 +14713,7 @@ y:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span>
@@ -16243,41 +14741,6 @@ y:
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[6]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.collections.PathCollection at 0x115058ef0&gt;</pre>
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-
-<div class="output_png output_subarea ">
-<img src="data:image/png;base64,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
-"
->
-</div>
-
-</div>
-
 </div>
 </div>
 
