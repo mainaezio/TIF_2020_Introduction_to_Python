@@ -1,0 +1,43 @@
+Cari studenti di TIF 2020,
+
+Il prossimo turno di esercitazioni si svolgerà dal 28/10 al 2/11.
+Le esercitazioni/Lezioni inizieranno su https://unito.webex.com/meet/ezio.maina
+All'inizio collegatevi con questa stanza.
+
+Prima della lezione finite i notebook 08_plots e 08_numpy_statistics.
+Quest'ultimo mostra come usare numpy per fare le operazioni statistiche
+elementari media, deviazione standard e istogramma delle frequenze con matplotlib.
+
+Nella seconda parte della lezione ci sarà il terzo test con valutazione.
+
+All'URL http://personalpages.to.infn.it/~maina/didattica/TIF_2020_Test/
+sono disponibili i risultati del (primo e) secondo Test.
+
+
+
+Le stanze addizionali saranno:
+
+Gruppo A1: Mercoledì 28/10 ore 14:00
+https://unito.webex.com/unito/j.php?MTID=m2daf7272f65e8ba07a9779bcf7cca37a
+Numero riunione: 121 214 7781
+Password riunione: Lab_A1
+
+Gruppo A2: Giovedì 29/10 ore 14:00
+https://unito.webex.com/unito/j.php?MTID=m6a9784af24e33a2e331da29112474595
+Numero riunione: 121 315 7742
+Password riunione: Lab_A2
+
+Gruppo B1: Venerdì 30/10 ore 14:00
+https://unito.webex.com/unito/j.php?MTID=m43885834a87a07113d7229c01190c086
+Numero riunione: 121 518 2101
+Password riunione: Lab_B1
+
+Gruppo B2: Lunedì 2/11 ore 11:00
+https://unito.webex.com/unito/j.php?MTID=mdfe8c82d97cf87a8f01f2ae2a18f101f
+Numero riunione: 121 877 2144
+Password riunione: Lab_B2
+
+
+Cordiali Saluti,
+
+Ezio Maina
