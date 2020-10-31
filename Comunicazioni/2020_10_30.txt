@@ -1,0 +1,73 @@
+Cari studenti di TIF 2020,
+
+Il prossimo turno di esercitazioni si svolgerà dal 2/11 al 3/11.
+Le esercitazioni/Lezioni inizieranno su https://unito.webex.com/meet/ezio.maina
+All'inizio collegatevi con questa stanza.
+
+Prima della lezione studiate il notebook 10_scipy. Scaricate l'ultima versione,
+sono state apportate alcune modifiche.
+
+
+
+Le stanze addizionali saranno:
+
+Gruppo A1: Martedì 3/11 ore 9:00
+https://unito.webex.com/unito/j.php?MTID=mba490adad9522245ddba5cab7a97a120
+Numero riunione: 121 350 0061
+Password riunione: Lab_A1
+
+Gruppo A2: Lunedì 2/11 ore 14:00
+https://unito.webex.com/unito/j.php?MTID=m12329e21a5838d322b0ae149bb382f84
+Numero riunione: 121 196 9377
+Password riunione: Lab_A2
+
+Gruppo B1: Martedì 3/11 ore 14:00
+https://unito.webex.com/unito/j.php?MTID=mf44d84c0eb4a8ca31adfc0fad8a02709
+Numero riunione: 121 990 6722
+Password riunione: Lab_B1
+
+Gruppo B2: Martedì 3/11 ore 16:00
+https://unito.webex.com/unito/j.php?MTID=mca13d69d798642d870cea132fa388e7d
+Numero riunione: 121 787 5403
+Password riunione: Lab_B2
+
+
+
+
+
+L'ultimo turno di esercitazioni si svolgerà dal 4/11 al 9/11.
+
+
+Nella prima parte della lezione sarà possibile fare domande su tutto il programma.
+Nella seconda parte della lezione ci sarà il quarto test con valutazione.
+
+
+
+Le stanze addizionali saranno:
+
+Gruppo A1: Mercoledì 4/11 ore 14:00
+https://unito.webex.com/unito/j.php?MTID=mb428a50cd944638ca0ae82ebc7e33e9d
+Numero riunione: 121 701 7542
+Password riunione: Lab_A1
+
+
+Gruppo A2: Giovedì 5/11 ore 14:00
+https://unito.webex.com/unito/j.php?MTID=m54f40d79b71d9130ff446f13f96121b1
+Numero riunione: 121 098 1776
+Password riunione: Lab_A2
+
+Gruppo B1: Venerdì 6/11 ore 9:00
+https://unito.webex.com/unito/j.php?MTID=mcb09922e09b620aab9b4e6d2740e59c7
+Numero riunione: 121 383 4073
+Password riunione: Lab_B1
+
+Gruppo B2: Lunedì 9/11 ore 11:00
+https://unito.webex.com/unito/j.php?MTID=mfd519fa71cbb76f2a699e28f93a4eae3
+Numero riunione: 121 594 8074
+Password riunione: Lab_B2
+
+
+
+Cordiali Saluti,
+
+Ezio Maina
